@@ -55,6 +55,20 @@ describe('Number conversions', function () {
       done();
     });
   });
+  it('1002 should return "You must convert a number between 0 and 1000"', function (done) {
+    request.get('http://localhost:8080/convert/1002', function (err, res, body) {
+      var response = JSON.parse(body);
+      expect(response.word).to.equal('You must convert a number between 0 and 1000');
+      done();
+    });
+  });
+  it('20563 should return "You must convert a number between 0 and 1000"', function (done) {
+    request.get('http://localhost:8080/convert/20563', function (err, res, body) {
+      var response = JSON.parse(body);
+      expect(response.word).to.equal('You must convert a number between 0 and 1000');
+      done();
+    });
+  });
   after(function () {
     // Stop server after testing
     server.stop();
