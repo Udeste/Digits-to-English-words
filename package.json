@@ -1,0 +1,25 @@
+{
+  "name": "digits-to-english-words",
+  "author": "udeste",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Udeste/Digits-to-English-words"
+  },
+  "main": "server.js",
+  "description": "Api server written in Javascript that converts numbers to the grammatically-correct English phrase",
+  "dependencies": {
+    "express": "^4.13.4"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-express": "^0.3.5",
+    "gulp-mocha": "^2.2.0",
+    "mocha": "^2.4.5",
+    "request": "^2.72.0"
+  }
+}
