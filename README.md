@@ -1,5 +1,5 @@
 # Digits to English words
-Api server written in Javascript that converts numeric numbers in the grammatically-correct English phrase.
+Api server written in Javascript that converts numbers in the grammatically-correct English phrase.
 
 ##Introduction
 This web server is totally developer with javascript technologies ready for production. The main server definition is coded in `server.js` file. 
